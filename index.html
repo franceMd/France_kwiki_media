@@ -3,135 +3,109 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>France Kwiki Media - Simulizi</title>
+  <title>France Kwiki Media</title>
   <style>
     body {
       margin: 0;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: #fafafa;
-      color: #333;
+      background-color: #3e2723;
+      color: #f5f5f5;
     }
+
     header {
-      background: linear-gradient(135deg, #5c2e00, #a0522d);
-      color: #fff;
+      background: #5d4037;
+      padding: 20px;
       text-align: center;
-      padding: 50px 20px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.4);
     }
+
     header h1 {
-      font-size: 2.5rem;
       margin: 0;
+      font-size: 2em;
+      letter-spacing: 2px;
     }
-    header p {
-      font-size: 1.2rem;
-      opacity: 0.9;
-    }
+
     nav {
-      background: #fff;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-      padding: 10px 20px;
-      display: flex;
-      justify-content: center;
-      gap: 20px;
-      position: sticky;
-      top: 0;
-      z-index: 1000;
+      margin-top: 10px;
     }
+
     nav a {
       text-decoration: none;
-      color: #5c2e00;
+      color: #ffcc80;
+      margin: 0 15px;
       font-weight: bold;
-      transition: color 0.3s;
+      transition: 0.3s;
     }
+
     nav a:hover {
-      color: #a0522d;
+      color: #ffffff;
     }
-    .container {
-      max-width: 1000px;
-      margin: auto;
-      padding: 20px;
-    }
-    .story-card {
-      background: #fff;
-      border-radius: 12px;
-      padding: 20px;
-      margin-bottom: 20px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-      transition: transform 0.2s;
-    }
-    .story-card:hover {
-      transform: translateY(-5px);
-    }
-    .story-card h2 {
-      color: #5c2e00;
-      margin-top: 0;
-    }
-    .story-card p {
-      line-height: 1.6;
-    }
-    .story-card a {
-      display: inline-block;
-      margin-top: 10px;
-      padding: 8px 15px;
-      background: #a0522d;
-      color: #fff;
-      border-radius: 8px;
-      text-decoration: none;
-      transition: background 0.3s;
-    }
-    .story-card a:hover {
-      background: #5c2e00;
-    }
-    footer {
-      background: #5c2e00;
-      color: #fff;
+
+    .hero {
+      padding: 80px 20px;
       text-align: center;
-      padding: 20px;
-      margin-top: 40px;
+      background: linear-gradient(rgba(62,39,35,0.7), rgba(62,39,35,0.7)),
+                  url('https://source.unsplash.com/1600x900/?books,writing') no-repeat center/cover;
+      color: white;
+    }
+
+    .hero h2 {
+      font-size: 2.5em;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 1.2em;
+      max-width: 600px;
+      margin: auto;
+    }
+
+    section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    section h3 {
+      color: #ffcc80;
+      margin-bottom: 15px;
+    }
+
+    footer {
+      background: #4e342e;
+      padding: 15px;
+      text-align: center;
+      font-size: 0.9em;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>📖 France Kwiki Media</h1>
-    <p>Simulizi za Maisha, Mapenzi na Safari</p>
+    <h1>France Kwiki Media</h1>
+    <nav>
+      <a href="#">Simulizi</a>
+      <a href="#">Habari</a>
+      <a href="#">Kuhusu</a>
+      <a href="#">Wasiliana</a>
+    </nav>
   </header>
 
-  <nav>
-    <a href="#">Nyumbani</a>
-    <a href="#">Simulizi</a>
-    <a href="#">Audio</a>
-    <a href="#">Mawasiliano</a>
-  </nav>
-
-  <div class="container">
-    <div class="story-card">
-      <h2>🌙 Chuo Cha Usiku</h2>
-      <p>
-        Hadithi ya kusisimua ya mapenzi na changamoto za maisha ya chuo. 
-        Kila sura ni siri mpya inayokupeleka mbali zaidi...
-      </p>
-      <a href="#">Soma Zaidi</a>
-    </div>
-
-    <div class="story-card">
-      <h2>❤️ Safari ya Moyo</h2>
-      <p>
-        Mapenzi yenye maumivu na matumaini. Ni hadithi ya moyo unaojifunza kusamehe na kupenda tena.
-      </p>
-      <a href="#">Soma Zaidi</a>
-    </div>
-
-    <div class="story-card">
-      <h2>🔥 Njia ya Ushujaa</h2>
-      <p>
-        Hadithi ya kijana anayeinuka kutoka changamoto za maisha hadi kuwa mfano wa ujasiri na matumaini.
-      </p>
-      <a href="#">Soma Zaidi</a>
-    </div>
+  <div class="hero">
+    <h2>Karibu France Kwiki Media</h2>
+    <p>Sehemu ya kusoma simulizi, habari na makala za kuvutia mtandaoni. Fuata hadithi na maarifa mapya kila siku.</p>
   </div>
 
+  <section>
+    <h3>📚 Simulizi Mpya</h3>
+    <p>Hapa utaweza kufuatilia simulizi za kipekee zinazogusa maisha ya kila siku.</p>
+  </section>
+
+  <section>
+    <h3>📰 Habari na Makala</h3>
+    <p>Habari fupi na makala zinazokuletea mtazamo mpya wa ulimwengu.</p>
+  </section>
+
   <footer>
-    <p>© 2025 France Kwiki Media | Mawasiliano: francekwiki@media.co.tz</p>
+    <p>© 2025 France Kwiki Media | All Rights Reserved</p>
   </footer>
 </body>
-  </html>
+</html>
